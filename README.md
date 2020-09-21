@@ -1,4 +1,4 @@
-# kerkdienstgemist
+# OnDemand
 This is a Wordpress plugin. To download go to releases.
 
 
