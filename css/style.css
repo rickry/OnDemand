@@ -1,0 +1,34 @@
+#OnDemand .player_container {
+    display: none;
+}
+
+#OnDemand table {
+    width: 100%;
+}
+
+#OnDemand tbody tr {
+    cursor: pointer;
+    padding: 5px;
+}
+
+#OnDemand tbody tr td img {
+    width: 250px;
+}
+#OnDemand tbody tr td {
+    padding: 4px;
+    vertical-align: middle;
+}
+
+#OnDemand tbody tr:hover:not(.notAvailable){
+    background-color: #f39929;
+}
+
+#OnDemand .back {
+    display: none;
+    cursor: pointer;
+}
+
+#OnDemand .notAvailable {
+    cursor: auto !important;
+    background-color: #fffacc;
+}
